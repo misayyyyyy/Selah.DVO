@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Add one <Cookie> entry per product. Image paths are relative to index.html. -->
+<!-- Ingredients can be entered simply as: <Ingredients>Butter, sugar, flour</Ingredients> -->
+<Cookies>
+
+<Cookie id="triple-chocolate-muffins">
+  <Name>Triple Chocolate Muffins</Name> <!-- Name sa product -->
+  <Tag>Triple Chocolate Bliss</Tag> <!-- Tag sa product didtoa sa hero section above sa name sa product -->
+  <Description>A cocoa-rich muffin layered with three kinds of chocolate for a deep, indulgent flavor in every bite.</Description> <!-- Description sa product -->
+  <Ingredients>one, two, three, one, two, three, one, two, three,  </Ingredients> <!-- Ingredients sa product -->
+  <HeroCookie>false</HeroCookie> <!-- true if gusto nimo i display ang product sa hero section, false if dili-->
+  <Price currency="PHP">60</Price> <!-- Price sa product -->
+  <Image>assets/cookies/tripleChocolateMuffins.png</Image> <!-- Picture sa product-->
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage> <!-- Picture sa product if dili mag load ang kanang image sa taas^^ -->
+  <Background start="#57372f" end="#2d1c1b" /> <!-- Background color sa product -->
+  <Accent>#d5a17a</Accent> <!-- Accent color sa product (kadtong mura og gradient) -->
+  <Badge>Triple Chocolate</Badge> <!-- Badge sa product (kadtong naga pulsate sa hero section) -->
+  <DisplayWord>TRIPLE CHOCOLATE MUFFINS</DisplayWord> <!-- Kadtong words sa hero section behind sa product -->
+</Cookie>
+
+<Cookie id="carrot-apple-muffins">
+  <Name>Carrot Apple Muffins</Name>  
+  <Tag>Fresh &amp; Wholesome</Tag>
+  <Description>Sweet apple and carrot come together in a soft, gently sweet muffin made for a cozy snack.</Description>
+  <Ingredients>one, two, three, one, two, three, one, two, three, one, two, three, one, two, three, one, two, three, </Ingredients>
+  <HeroCookie>false</HeroCookie>
+  <Price currency="PHP">60</Price>
+  <Image>assets/cookies/carrotAppleMuffins.png</Image>
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage>
+  <Background start="#c68a4b" end="#82502f" />
+  <Accent>#f1c77d</Accent>
+  <Badge>Carrot &amp; Apple</Badge>
+  <DisplayWord>CARROT APPLE MUFFINS</DisplayWord>
+</Cookie>
+
+<Cookie id="calamansi-muffins">
+  <Name>Calamansi Muffins</Name>
+  <Tag>Citrusy &amp; Refreshing</Tag>
+  <Description>A soft, lightly sweet muffin lifted by the bright, tangy flavor of fresh calamansi.</Description>
+  <Ingredients>one, two, three, one, two, three, one, two, three,  </Ingredients>
+  <HeroCookie>false</HeroCookie>
+  <Price currency="PHP">45</Price>
+  <Image>assets/cookies/calamansiMuffins.png</Image>
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage>
+  <Background start="#c9d879" end="#7b963c" />
+  <Accent>#f5efaa</Accent>
+  <Badge>Local Citrus</Badge>
+  <DisplayWord>CALAMANSI MUFFINS</DisplayWord>
+</Cookie>
+
+<Cookie id="banana-chocolate-walnuts">
+  <Name>Banana Chocolate Walnuts</Name>
+  <Tag>Sweet &amp; Nutty</Tag>
+  <Description>Sweet banana flavor meets rich chocolate and crunchy walnuts in a satisfying, nutty treat.</Description>
+  <Ingredients>one, two, three, one, two, three, one, two, three,  </Ingredients>
+  <HeroCookie>true</HeroCookie>
+  <Price currency="PHP">45</Price>
+  <Image>assets/cookies/bananaChocolateWalnuts.png</Image>
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage>
+  <Background start="#d9bd77" end="#92713e" />
+  <Accent>#f5dda0</Accent>
+  <Badge>Banana &amp; Walnut</Badge>
+  <DisplayWord>BANANA CHOCOLATE WALNUTS</DisplayWord>
+</Cookie>
+
+<Cookie id="red-velvet-creamcheese">
+  <Name>50g Red Velvet Creamcheese</Name>
+  <Tag>Velvety &amp; Creamy</Tag>
+  <Description>A tender red velvet treat with a smooth, tangy cream cheese center for a lovely sweet-and-creamy balance.</Description>
+  <Ingredients>one, two, three, one, two, three, one, two, three,  </Ingredients>
+  <HeroCookie>true</HeroCookie>
+  <Price currency="PHP">45</Price>
+  <Image>assets/cookies/redVelvetCreamCheese.png</Image>
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage>
+  <Background start="#b94c59" end="#702936" />
+  <Accent>#f2b5b8</Accent>
+  <Badge>50g • Cream Cheese</Badge>
+  <DisplayWord>50G RED VELVET CREAMCHEESE</DisplayWord>
+</Cookie>
+
+<Cookie id="hazelnut-creamcheese">
+  <Name>50g Hazelnut Creamcheese</Name>
+  <Tag>Nutty &amp; Creamy</Tag>
+  <Description>Toasty-tasting hazelnut and smooth cream cheese come together in a rich, gently sweet treat.</Description>
+  <Ingredients>one, two, three, one, two, three, one, two, three,  </Ingredients>
+  <HeroCookie>false</HeroCookie>
+  <Price currency="PHP">50</Price>
+  <Image>assets/cookies/hazelnutCreamCheese.png</Image>
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage>
+  <Background start="#b88b68" end="#684532" />
+  <Accent>#e4c4a1</Accent>
+  <Badge>50g • Hazelnut</Badge>
+  <DisplayWord>50G HAZELNUT CREAMCHEESE</DisplayWord>
+</Cookie>
+
+<Cookie id="triple-biscoff">
+  <Name>50g Triple Biscoff</Name>
+  <Tag>Caramelized Cookie Bliss</Tag>
+  <Description>A Biscoff-inspired treat with warm caramelized-cookie flavor and a rich, satisfying finish.</Description>
+  <Ingredients>one, two, three, one, two, three, one, two, three,  </Ingredients>
+  <HeroCookie>true</HeroCookie>
+  <Price currency="PHP">60</Price>
+  <Image>assets/cookies/tripleBiscoff.png</Image>
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage>
+  <Background start="#c99a60" end="#8b5c32" />
+  <Accent>#f2d3a0</Accent>
+  <Badge>50g • Triple Biscoff</Badge>
+  <DisplayWord>50G TRIPLE BISCOFF</DisplayWord>
+</Cookie>
+
+<Cookie id="midnight-cocoa">
+  <Name>Midnight Cocoa</Name>
+  <Tag>Dark &amp; Mysterious</Tag>
+  <Description>A dark, cocoa-forward treat with a bold chocolate flavor for those who like their sweets rich.</Description>
+  <Ingredients>one, two, three, one, two, three, one, two, three,  </Ingredients>
+  <HeroCookie>true</HeroCookie>
+  <Price currency="PHP">45</Price>
+  <Image>assets/cookies/midnightCocoa.png</Image>
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage>
+  <Background start="#494354" end="#17151f" />
+  <Accent>#b6a3d5</Accent>
+  <Badge>Midnight Special</Badge>
+  <DisplayWord>MIDNIGHT COCOA</DisplayWord>
+</Cookie>
+
+<Cookie id="brownies">
+  <Name>2.5x2.5 Inch Brownies</Name>
+  <Tag>Rich &amp; Chocolatey</Tag>
+  <Description>A generous 2.5-inch square with a rich chocolate flavor and a soft, fudgy-style bite.</Description>
+  <Ingredients>Chocolate, cocoa powder, flour, sugar, butter, eggs</Ingredients>
+  <HeroCookie>true</HeroCookie>
+  <Price currency="PHP">60</Price>
+  <Image>assets/cookies/Brownies.png</Image>
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage>
+  <Background start="#6b3f2a" end="#2b1712" />
+  <Accent>#d9a679</Accent>
+  <Badge>2.5x2.5 IN • Brownies</Badge>
+  <DisplayWord>BROWNIES</DisplayWord>
+</Cookie>
+
+<Cookie id="revel-bar">
+  <Name>2.5x2.5 Inch Revel Bar</Name>
+  <Tag>Oaty &amp; Chocolatey</Tag>
+  <Description>A 2.5-inch square with a hearty oat layer and rich chocolate filling, bringing together a chewy bite and deep cocoa flavor.</Description>
+  <Ingredients>Oats, chocolate, flour, sugar, butter, eggs</Ingredients>
+  <HeroCookie>false</HeroCookie>
+  <Price currency="PHP">55</Price>
+  <Image>assets/cookies/revelBar.png</Image>
+  <FallbackImage>assets/cookies/Cookie1.png</FallbackImage>
+  <Background start="#b8895b" end="#593a27" />
+  <Accent>#e6c49a</Accent>
+  <Badge>2.5x2.5 IN • Revel Bar</Badge>
+  <DisplayWord>REVEL BAR</DisplayWord>
+</Cookie>
+
+</Cookies>
